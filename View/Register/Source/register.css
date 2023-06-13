@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dau{
+  background-color: #e83e8c;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.error{
+    color: red;
+    font-size: 18px;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
+
+
+@-webkit-keyframes my {
+    0% {
+      color: red;
+    } 
+    50% {
+      color: #fff;
+    } 
+    100% {
+      color: red;
+    } 
+  }
+  @-moz-keyframes my { 
+    0% {
+      color: red;
+    } 
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: red;
+    } 
+  }
+  @-o-keyframes my { 
+    0% {
+      color: red;
+    } 
+    50% {
+      color: #fff;
+    } 
+    100% {
+      color: red;
+    } 
+  }
+   @keyframes my { 
+     0% {
+      color: red;
+    } 
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: red;
+    } 
+  }
+

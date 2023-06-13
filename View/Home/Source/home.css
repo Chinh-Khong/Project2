@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dau{
+    background-color: #e83e8c;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* content */
+
+.slide{
+    max-width: 1200px;
+    position: relative;
+    display: block;
+    
+}
+.slide img{
+    max-width: 100%;
+    height: 100%;
+}
+
+
+
+.slide .fa-chevron-left{
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    font-size: 32px;
+    color: #FFFFFF;
+    
+}
+
+.slide i:hover{
+   color: rgb(229, 189, 189);
+}
+
+.slide .fa-chevron-right{
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.menu-sanpham ul{
+    display: flex;
+}
+.menu-sanpham ul li a{
+    padding: 10px;
+}
+
+.thongtin_sp span {
+    margin:40px;
+    Font: Roboto, sans-serif;
+    font-family: 20px;
+}
+
+.thongtin_sp del {
+    margin-left: 20px;
+    Color: #999999;
+    Font: Roboto, sans-serif;
+    font-family: 14px;
+}
+
+.thongtin_sp p {
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 16px;
+    color: #D70909;
+    font-family: Roboto, sans-serif;
+}
+
+.row{
+    max-width: 1225px;
+}
+
+.img{
+    position: relative;
+    overflow: hidden;
+}
+
+.MuaNgay a{
+    background-color: #ef3340;
+    max-width: 100%;
+    display: block;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    bottom: -45px;
+    width: 100%;
+    transition: 0.25s ease-in-out;
+}
+.img:hover .MuaNgay a{
+    bottom: 0px;
+}
+.MuaNgay a:hover{
+    background-color: #ff2f00;
+}
+
+
+ #tien{
+    color: #D70909;
+    font-weight: 600;
+    font-size: 20px;
+}
+.price ul{
+    justify-content: space-between;
+}
+
+
+.price ul li i{
+    font-size: 30px;
+    color: #ec2b2b;
+}
+.sale{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #f30c0c;
+        border-radius: 50%;
+        color: #FFFFFF;
+        font-weight: 600; 
+        margin-top: 2px;
+        margin-left: 2px;
+}
+.sale p{
+    margin: 10px;
+}
+
